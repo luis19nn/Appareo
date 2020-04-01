@@ -1,0 +1,220 @@
+body, html, #home {
+    height: 100%;
+}
+
+body {
+    background: url(../imagens/fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav.nav-transparente {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.divisor {
+    width: 1px;
+    background: rgba(0, 180, 171, 0.801);
+    margin: 12px 15px;
+}
+
+.logo {
+    color: rgb(0, 180, 171);
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: rgb(0, 69, 180);
+    transition: all 1s;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 180, 171, 0.801);
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    text-decoration: none;
+    color: rgba(0, 69, 180, 0.897);
+    transition: all 1s;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 180, 171, 0.801);
+    border-color: rgba(0, 180, 171, 0.801);
+}
+
+.dropdown-formata {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.dropdown-formata a {
+    color: rgba(0, 180, 171, 0.801);
+}
+
+.dropdown-formata a:hover {
+    color: rgba(0, 69, 180, 0.897);
+    transition: all 1s;
+    background: rgba(0, 0, 0, 0.883); 
+}
+
+.capa {
+    text-align: center;
+}
+
+#home .formata-tipografia {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+.carousel-indicators li {
+    margin-top: 30px;
+}
+
+#home .formata-tipografia h3, .formata-cartao .card h4 {
+    color: rgba(0, 180, 171, 0.801);
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: -0.05em;
+}
+
+.btn-meu {
+    border: 2px solid rgba(0, 69, 180, 0.897);
+    color: rgb(0, 69, 180);
+}
+
+.btn-meu:hover {
+    background: rgba(0, 69, 180, 0.897);
+    color: white;
+}
+
+.bg-conteudo1 {
+    background: #f5f5f5;
+    margin-top: 71px;
+    padding: 25px;
+}
+
+.rotacionar {
+    -ms-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.596);
+}
+
+#conteudo1 .formata-cartao h3 {
+    color: rgba(0, 180, 171, 0.801);
+}
+
+#conteudo2 .formata-cartao h5 {
+    color: rgba(0, 69, 180, 0.897);
+    font-weight: bold;
+}
+
+#conteudo2 {
+    padding: 20px;
+}
+
+#conteudo2 .card {
+    padding: 15px;
+}
+
+table a h5{
+    color: rgba(0, 180, 171, 0.801);
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgba(0, 69, 180, 0.897);
+    text-decoration: none;
+}
+
+table thead {
+    background: rgba(0, 180, 171, 0.801);
+}
+
+table thead a{
+    color: white;
+    text-transform: uppercase;
+}
+
+table thead a:hover {
+    color: #f5f5f5;
+}
+
+a.page-link {
+    color: rgba(0, 69, 180, 0.897);
+}
+
+table a {
+    color: rgba(0, 180, 171, 0.801);
+}
+
+table a h5:hover {
+    color: rgba(0, 69, 180, 0.897);
+    font-weight: bold;
+    transition: all 1s;
+}
+
+footer {
+    background: black;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: rgba(0, 180, 171, 0.801);
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: rgba(0, 69, 180, 0.897);
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    color: rgba(0, 180, 171, 0.801);
+    font-size: 2em;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*header ul.navbar-nav {
+        display: list-item;
+    }*/
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}
